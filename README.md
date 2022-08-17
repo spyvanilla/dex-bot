@@ -1,2 +1,2 @@
-# dex-bot
+# Dex Bot
 A pokedex discord bot
