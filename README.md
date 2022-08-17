@@ -1,2 +1,2 @@
 # Dex Bot
-A pokedex discord bot
+Search for everything pokemon related here!
