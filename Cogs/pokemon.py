@@ -23,7 +23,7 @@ class Pokemon(commands.Cog):
     async def pokemon(self,ctx,pokemon):
         try:
             data = requests.get(f'{POKE_API_URL}pokemon/{pokemon}').json()
-        except json.decoder.JSONDecodeError:
+        except json.decoder.JSONDecodeError: # if the request returns 404, it raises an error when decoding to json
             await ctx.send("Pokemon not found!")
             return
 
